@@ -61,6 +61,7 @@ body {
   border-radius: 0.9rem;
   overflow: scroll;
   overflow-x:hidden;
+  overflow-y: auto;
   position: relative;
 }
 
@@ -377,7 +378,7 @@ body {
 
   .main{
     flex-direction: column;
-    width: 100%;
+    width: 80%;
   }
 
   .box{
