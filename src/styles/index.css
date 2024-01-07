@@ -381,7 +381,11 @@ body {
   }
 
   .box{
-    height: 39em;
+    height: 70em;
+  }
+
+  .box:last-child{
+    height: 130rem;
   }
 
 }
