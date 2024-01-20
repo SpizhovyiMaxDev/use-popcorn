@@ -26,7 +26,7 @@ export default function App() {
         try{
           setIsLoading(true);
           setError("");
-           const response = await fetch(`http://www.omdbapi.com/?apikey=${KEY}&s=${query.trim()}`);
+           const response = await fetch(`https://www.omdbapi.com/?apikey=${KEY}&s=${query.trim()}`);
               
             if(!response.ok)
               throw new Error('Something went wrong with fetching Movies')
