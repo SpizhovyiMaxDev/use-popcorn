@@ -29,7 +29,7 @@ export function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }
     (async function () {
       try {
         setIsLoading(true);
-        const response = await fetch(`http://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`);
+        const response = await fetch(`https://www.omdbapi.com/?apikey=${KEY}&i=${selectedId}`);
         if (!response.ok)
           throw new Error('Something wrong with the movie server');
 
