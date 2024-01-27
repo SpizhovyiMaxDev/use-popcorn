@@ -1,1 +1,1 @@
- 🍿UsePopcorn --> my first real react website
+ 🍿UsePopcorn --> my first real react responsive website
