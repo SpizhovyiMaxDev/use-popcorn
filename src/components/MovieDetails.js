@@ -19,7 +19,7 @@ export function MovieDetails({ selectedId, onCloseMovie, onAddWatched, watched }
   }, [userRating]);
 
   const {
-    Title: title, Year: year, Poster: poster, Runtime: runtime, imdbRating, Plot: plot, Released: released, Actors: actors, Deirector: director, Genre: genre,
+    Title: title, Year: year, Poster: poster, Runtime: runtime, imdbRating, Plot: plot, Released: released, Actors: actors, Director: director, Genre: genre,
   } = movie;
 
   useKey('Escape', onCloseMovie);
